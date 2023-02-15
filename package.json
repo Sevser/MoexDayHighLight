@@ -1,0 +1,37 @@
+{
+  "name": "moex-day-highlight",
+  "version": "1.0.0",
+  "description": "This plugin allow you to get data from the MOEX and present you an infographics about current stock market",
+  "main": "./src/code.ts",
+  "scripts": {
+    "watch": "npx webpack",
+    "watch-tsc": "tsc --module commonjs --watch -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
+    "lint": "tslint \"lib/**/*.ts\""
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sevser/MoexDayHighLight.git"
+  },
+  "author": "sevser <sevser39@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sevser/MoexDayHighLight/issues"
+  },
+  "homepage": "https://github.com/Sevser/MoexDayHighLight#readme",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.58.0",
+    "@types/node": "^18.13.0",
+    "buffer": "^6.0.3",
+    "lodash": "^4.17.21",
+    "moex-api": "^1.1.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "url": "^0.11.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

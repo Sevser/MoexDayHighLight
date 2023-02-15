@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@figma",
+      "./global.d.ts"
+    ],
+    "skipLibCheck": true
+  },
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*"
+    ]
+  }
+}

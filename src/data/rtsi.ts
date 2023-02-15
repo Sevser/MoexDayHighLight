@@ -1,0 +1,48 @@
+const rtsi = {
+  "SECID": "RTSI",
+  "BOARDID": "RTSI",
+  "LASTVALUE": 971.95,
+  "OPENVALUE": 972.57,
+  "CURRENTVALUE": 965.86,
+  "LASTCHANGE": -6.09,
+  "LASTCHANGETOOPENPRC": -0.69,
+  "LASTCHANGETOOPEN": -6.71,
+  "UPDATETIME": "18:51:01",
+  "LASTCHANGEPRC": -0.63,
+  "VALTODAY": 18435819264,
+  "MONTHCHANGEPRC": -3.53,
+  "YEARCHANGEPRC": -0.49,
+  "SEQNUM": 20230213185101,
+  "SYSTIME": "2023-02-13 18:51:01",
+  "TIME": "18:50:00",
+  "VALTODAY_USD": 249636689,
+  "LASTCHANGEBP": -609,
+  "MONTHCHANGEBP": -3536.9999999999995,
+  "YEARCHANGEBP": -474,
+  "CAPITALIZATION": 11033517487894,
+  "CAPITALIZATION_USD": 149403220663,
+  "HIGH": 974.38,
+  "LOW": 965.25,
+  "TRADEDATE": "2023-02-13",
+  "TRADINGSESSION": "1",
+  "VOLTODAY": null,
+  "securityInfo": {
+    "SECID": "RTSI",
+    "BOARDID": "RTSI",
+    "NAME": "Индекс РТС",
+    "DECIMALS": 2,
+    "SHORTNAME": "Индекс РТС",
+    "ANNUALHIGH": 1544.59,
+    "ANNUALLOW": 610.33,
+    "CURRENCYID": "USD",
+    "CALCMODE": null
+  },
+  "node": {
+    "last": 965.86,
+    "volume": 18435819264,
+    "friendlyTitle": "Индекс РТС",
+    "id": "RTSI"
+  }
+};
+
+export default rtsi;

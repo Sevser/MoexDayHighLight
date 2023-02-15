@@ -1,0 +1,9 @@
+{
+  "name": "Moex Day chart",
+  "api": "1.0.0",
+  "main": "./build/plugin.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ]
+}
